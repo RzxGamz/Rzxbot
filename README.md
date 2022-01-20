@@ -5,7 +5,7 @@
 $ pkg update && pkg upgrade
 $ pkg install nodejs
 $ pkg install git
-$ git clone https://github.com/RzxGamz/Rzxbot.git
+$ git clone https://github.com/RzxGamz/Rzxbot
 $ cd Rzxbot
 $ npm install
 $ node index.js
