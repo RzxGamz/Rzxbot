@@ -1,1 +1,0 @@
-// THUMBNAIL FOTO
