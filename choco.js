@@ -24,7 +24,7 @@ const axios = require('axios')
 const fetch = require('node-fetch')
 const util = require('util')
 const brainly = require('brainly-scraper')
-const google = require('google-it')
+//const google = require('google-it')
 const ytsearch = require('yt-search')
 
 const { kompas, inews, youtube, facebook, quotes, igdl, igdl2, igstalk, igstory, tiktok, twitter, joox, covid, pin, pinterest, wallpaper, wikimedia, porno, hentai, quotesAnime, listsurah, surah, tafsirsurah, film, manga, anime, character, jadwalbola, jadwaltv, jadwalsholat, drakor, otakudesu, ongoing, komiku, tebakgambar, sholat, lirik, chara, wattpad, playstore, linkwa, telesticker, stickersearch, webtoon, surah2, fbdown, twitter2, upload } = require("./lib/scrape")
@@ -378,14 +378,14 @@ module.exports = async(sock, msg, m) => {
         break
         
         //Search
-        case prefix+'google': {
+        /*case prefix+'google': {
         	if (!q) return reply(mess.invQ)
             reply(mess.wait)
             google(q).then(async data => {
             	reply(data)
             }).catch(e => reply(e))
         }
-        break
+        break*/
         case prefix+'pinterest': case prefix+'pin': case prefix+'image': {
         	if (!q) return reply(mess.invQ)
             reply(mess.wait)
