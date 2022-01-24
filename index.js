@@ -9,7 +9,7 @@ const { state, saveState } = useSingleFileAuthState('./auth_info_multi.json')
 const startSock = () => {
     
     const sock = makeWASocket({
-        logger: P({ level: 'trace' }),
+        logger: P({ level: 'silent' }),
         printQRInTerminal: true,
         browser: ['Rzx Bot','Chrome','1.0.0'],
         auth: state
