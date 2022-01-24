@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "npm i -g npm@6 && npm install",
-    "start": "node index"
+    "start": "node index.js"
   },
   "author": "RzxGamz",
   "license": "MIT",
